@@ -1,0 +1,2 @@
+Day 1 
+learnt basic backend setup
