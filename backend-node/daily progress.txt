@@ -1,2 +1,4 @@
 Day 1 
 learnt basic backend setup
+Day 2
+created a new about route

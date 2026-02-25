@@ -1,0 +1,30 @@
+LeetCode 
+747. Largest Number At Least Twice of Others
+
+class Solution {
+    public int dominantIndex(int[] nums) {
+        int max = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+        int index = -1;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] > max){
+                second = max;
+                max = nums[i];
+                index = i;
+            }
+            else if(nums[i]>second){
+                second = nums[i];
+            }
+        }
+        if(max >= second * 2){
+            return index;
+        }
+        else{
+            return -1;
+        }
+    }
+}
+
+runtime - 0ms
+time complexity - O(n)
+space complexity - O(1)
