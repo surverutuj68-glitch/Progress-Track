@@ -1,0 +1,39 @@
+LeetCode
+217. Contains Duplicate
+
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        HashSet<Integer> hs = new HashSet<>();
+        for(int i=0;i<nums.length;i++){
+            hs.add(nums[i]);
+        }
+        if(hs.size()==nums.length){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+}
+
+time complexity - O(n)
+space complexity - O(n)
+
+---------------------------------------------------------------------------------
+
+optimized - if duplicate is found early doesn't scan the whole array
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        HashSet<Integer> hs = new HashSet<>();
+        for(int i=0;i<nums.length;i++){
+            if(hs.contains(nums[i])){
+                return true;
+            }
+            hs.add(nums[i]);
+        }
+        return false;
+    }
+}
+
+time complexity - O(n)
+space complexity - O(n)

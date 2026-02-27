@@ -17,6 +17,5 @@ class Solution {
     }
 }
 
-runtime - 1ms
 time complexity - O(n)
 space complexity - O(1)
