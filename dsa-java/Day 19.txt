@@ -1,0 +1,24 @@
+LeetCode
+14. Longest Common Prefix
+
+class Solution {
+    public String longestCommonPrefix(String[] strs) {
+        String str = "";
+        for(int a =0; a<strs[0].length();a++){
+            for(int i=1;i<strs.length;i++){
+            if(a >= strs[i].length() || strs[0].charAt(a) != strs[i].charAt(a)){
+                return str;
+            }
+        }
+            str = str + strs[0].charAt(a);
+        }
+        return str;
+    }
+}
+
+time complexity - O(n × m) / O(S)
+space complexity - O(m)
+
+n = number of strings
+m = length of the shortest string
+S = total number of characters in all strings combined.
