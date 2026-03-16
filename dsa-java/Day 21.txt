@@ -1,0 +1,49 @@
+LeetCode
+66. Plus One
+
+class Solution {
+    public int[] plusOne(int[] digits) {
+        List<Integer> li = new ArrayList<>();
+        for(int i=0;i<digits.length;i++){
+            li.add(i,digits[i]);
+        }
+        if(digits.length==1 && digits[0] == 9){
+                li.set(digits.length -1,1);
+                li.add(digits.length,0);
+            }
+            else{
+                li.set(digits.length-1,digits[digits.length-1]+1);
+            }
+        for (int i=digits.length-1; i>0;i--){
+            if(digits[i]==9){
+                li.set(i,0);
+            }else{
+                li.set(i,digits[i]+1);
+                break;
+            }
+            for(int j=i-1;j>=0;j--){
+                if(digits[j]==9 && j == 0){
+                    li.set(j,1);
+                    li.add(digits.length,0);
+                    break;
+                }
+                if(digits[j]==9){
+                    li.set(j,0);
+                    break;
+                }
+                else{
+                li.set(j,digits[j]+1);
+                break;
+            }
+        }        
+    }
+        int [] arr = new int[li.size()];
+        for(int i=0;i<li.size();i++){
+            arr[i]= li.get(i);
+        }
+        return arr;
+    }
+}
+
+time complexity - O(n^2)
+space complexity - O(n)
