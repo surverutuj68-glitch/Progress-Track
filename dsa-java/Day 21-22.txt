@@ -48,7 +48,7 @@ class Solution {
 time complexity - O(n^2)
 space complexity - O(n)
 ------------------------------------------------------------------------------------------------------------------------------------------
-optimized code write again by self
+optimized code
 class Solution {
     public int[] plusOne(int[] digits) {
 
