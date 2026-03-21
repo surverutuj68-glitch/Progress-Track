@@ -1,0 +1,20 @@
+LeetCode
+268. Missing Number
+
+class Solution {
+    public int missingNumber(int[] nums) {
+        List<Integer> li = new ArrayList<>();
+        for(int num : nums){
+            li.add(num);
+        }
+        for(int i=0;i<= nums.length;i++){
+            if(!li.contains(i)){
+               return i;
+            }
+        }
+        return 0;
+    }
+}
+
+time complexity - O(N^2)
+space complexity - O(N)
