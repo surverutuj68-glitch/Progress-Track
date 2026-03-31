@@ -1,0 +1,17 @@
+LeetCode
+160. Intersection of Two Linked Lists
+
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode a = headA;
+        ListNode b = headB;
+            while(a!=b){
+                a = (a == null) ? headA : a.next;
+                b = (b == null) ? headB : b.next;
+            }
+            return a;
+    }
+}
+
+time complexity - O(M+N)
+space complexity - O(1)
