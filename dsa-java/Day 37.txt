@@ -1,0 +1,35 @@
+LeetCode
+19. Remove Nth Node From End of List
+
+class Solution {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode curr = head;
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode abc = dummy;
+        int length = 0;
+        while(curr!=null){
+            curr = curr.next;
+            length++;
+        }
+        int a = length-n;
+        int count = 0;
+        System.out.println(length);
+        while(abc!=null && abc.next!=null){
+            if(count == a){
+                abc.next = abc.next.next;
+                count++;
+            }else{
+                abc = abc.next;
+                abc.next = abc.next;
+                count++;
+            }
+        }
+        return dummy.next;
+    }
+}
+
+time complexity - O(Sz)
+space complexity - O(1)
+------------------------------------------------------------------------------------------------------------------------------------------
+two pointer approach
