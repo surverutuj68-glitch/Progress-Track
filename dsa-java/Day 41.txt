@@ -1,0 +1,52 @@
+LeetCode
+445. Add Two Numbers II
+
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummy1 = l1;
+        ListNode dummy2 = l2;
+        ListNode curr1 = dummy1;
+        ListNode curr2 = dummy2;
+        ListNode prev1 = null;
+        ListNode prev2 = null;
+        while(curr1!=null){
+            ListNode next = curr1.next;
+            curr1.next = prev1;
+            prev1 = curr1;
+            curr1 = next;
+        }
+        while(curr2!=null){
+            ListNode next = curr2.next;
+            curr2.next = prev2;
+            prev2 = curr2;
+            curr2 = next;
+        }
+        ListNode a = prev1;
+        ListNode b = prev2;
+        ListNode dum = new ListNode(0);
+        ListNode curr = dum;
+        int carry = 0;
+        while(a!=null ||b!=null ||carry!=0){
+            int x = (a!=null) ? a.val : 0;
+            int y = (b!=null) ? b.val : 0;
+            int sum = x + y + carry;
+            carry = sum / 10;
+            curr.next = new ListNode(sum%10);
+            curr = curr.next;
+            if (a!=null) a = a.next;
+            if (b!=null) b = b.next;
+        }
+        ListNode cur = dum.next;
+        ListNode prev = null;
+        while(cur!=null){
+            ListNode next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
+        }
+        return prev;
+    }
+}
+
+time complexity - O(M+N)
+space complexity - O(1)
