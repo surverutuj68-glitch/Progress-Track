@@ -1,0 +1,40 @@
+LeetCode
+1482. Minimum Number of Days to Make m Bouquets
+
+class Solution {
+    public int minDays(int[] bloomDay, int m, int k) {
+        int left = 1;
+        int right = 0;
+        for(int day:bloomDay){
+            right = Math.max(day,right);
+        }
+        if((long)m * k > bloomDay.length){
+            return -1;
+        }
+        while(left<right){
+            int mid = left + (right-left)/2;
+            int fl = 0;
+            int bq = 0;
+            for(int d : bloomDay){
+                if(d<=mid){
+                    fl++;
+                if(fl==k){
+                    bq++;
+                    fl=0;
+                }
+                }else{
+                    fl = 0;
+                }
+            }
+            if(bq>=m){
+                right = mid;
+            }else{
+                left = mid+1;
+            }
+        }
+        return left;
+    }
+}
+
+time complexity - O(nlog(max(bloomday)))
+space complexity - O(1)
