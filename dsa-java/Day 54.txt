@@ -1,0 +1,17 @@
+LeetCode
+104. Maximum Depth of Binary Tree
+
+class Solution {
+    public int maxDepth(TreeNode root) {
+        if(root==null){
+            return 0;
+        }
+        int leftDepth = maxDepth(root.left);
+        int rightDepth = maxDepth(root.right);
+        int depth = 1 + Math.max(leftDepth,rightDepth);
+        return depth;
+    }
+}
+
+time complexity - O(N)
+space complexity - O(H)
