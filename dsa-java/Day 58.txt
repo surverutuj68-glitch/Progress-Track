@@ -1,0 +1,28 @@
+LeetCode
+94. Binary Tree Inorder Traversal
+
+class Solution {
+
+    List<Integer> li = new ArrayList<>();
+
+    public List<Integer> inorderTraversal(TreeNode root) {
+        inorder(root);
+        return li;
+    }
+
+    private void inorder(TreeNode root) {
+
+        if(root == null) {
+            return;
+        }
+
+        inorder(root.left);
+
+        li.add(root.val);
+
+        inorder(root.right);
+    }
+}
+
+time complexity - O(N)
+space complexity - O(N)
