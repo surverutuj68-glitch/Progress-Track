@@ -1,0 +1,21 @@
+LeetCode
+144. Binary Tree Preorder Traversal
+
+class Solution {
+    List<Integer> li = new ArrayList<>();
+    public List<Integer> preorderTraversal(TreeNode root) {
+        preorder(root);
+        return li;
+    }
+    private void preorder(TreeNode root){
+        if(root == null){
+            return ;
+        }
+        li.add(root.val);
+        preorder(root.left);
+        preorder(root.right);
+    }
+}
+
+time complexity - O(N)
+space complexity - O(N)
