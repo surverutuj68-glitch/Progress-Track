@@ -1,0 +1,21 @@
+LeetCode
+145. Binary Tree Postorder Traversal
+
+class Solution {
+    List<Integer> li = new ArrayList<>();
+    public List<Integer> postorderTraversal(TreeNode root) {
+        postorder(root);
+        return li;
+    }
+    private void postorder(TreeNode root){
+        if(root == null){
+            return ;
+        }
+        postorder(root.left);
+        postorder(root.right);
+        li.add(root.val);
+    }
+}
+
+time complexity - O(N)
+space complexity - O(N)
