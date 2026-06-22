@@ -1,0 +1,38 @@
+LeetCode
+103. Binary Tree Zigzag Level Order Traversal
+
+class Solution {
+    List<List<Integer>> li = new ArrayList<>();
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>();
+        if(root == null){
+            return li;
+        }
+        q.offer(root);
+        boolean leftToright = true;
+        while(!q.isEmpty()){
+            LinkedList<Integer> level = new LinkedList<>();
+            int size = q.size();
+            for(int i =0; i<size;i++){
+                TreeNode node = q.poll();
+                if(leftToright == false){
+                    level.addFirst(node.val);
+                }else{
+                    level.addLast(node.val);
+                }
+                if(node.left!= null){
+                q.offer(node.left);
+                }
+                if(node.right!= null){
+                q.offer(node.right);
+                }
+            }
+            leftToright = !leftToright;
+            li.add(level);
+        }
+        return li;
+    }
+}
+
+time complexity - O(N)
+space complexity - O(N)
