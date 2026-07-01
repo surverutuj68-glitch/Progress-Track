@@ -1,0 +1,25 @@
+LeetCode
+124. Binary Tree Maximum Path Sum
+
+class Solution {
+    int maxSum = Integer.MIN_VALUE;
+    public int maxPathSum(TreeNode root) {
+        gain(root);
+        return maxSum;
+    }
+    private int gain(TreeNode root){
+        int leftGain = 0;
+        int rightGain = 0;
+        if(root==null){
+            return 0;
+        }
+        leftGain = Math.max(0, gain(root.left));
+        rightGain = Math.max(0, gain(root.right));
+        int sum = root.val + leftGain + rightGain;
+        maxSum = Math.max(maxSum, sum);
+        return root.val + Math.max(leftGain, rightGain);
+    }
+}
+
+time complexity - O(N)
+space complexity - O(H)
