@@ -1,0 +1,25 @@
+LeetCode
+230. Kth Smallest Element in a BST
+
+class Solution {
+    int count = 0;
+    int ans;
+    public int kthSmallest(TreeNode root, int k) {
+        inorder(root,k);
+        return ans;
+    }
+    private void inorder(TreeNode root, int k){
+        if(root == null || count >= k){
+            return;
+        }
+        inorder(root.left, k);
+        count++;
+        if(count == k){
+        ans = root.val;
+        }
+        inorder(root.right, k);
+    }
+}
+
+time complexity - O(H+K)
+space complexity - O(H)
