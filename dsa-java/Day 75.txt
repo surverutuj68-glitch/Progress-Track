@@ -1,0 +1,31 @@
+LeetCode
+113. Path Sum II
+
+class Solution {
+    List<List<Integer>> li = new ArrayList<>();
+    public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
+        dfs(root,new ArrayList<>(),0,targetSum);
+        return li;
+    }
+    private void dfs(TreeNode root, List<Integer> path, int sum, int targetSum){
+        if(root == null){
+            return;
+        }
+        path.add(root.val);
+        sum += root.val;
+        if(root.left == null && root.right == null){
+            if(sum==targetSum){
+                li.add(new ArrayList<>(path));
+            }
+            path.remove(path.size()-1);
+            return;
+        }
+        dfs(root.left,path,sum,targetSum);
+        dfs(root.right,path,sum,targetSum);
+        path.remove(path.size()-1);
+        return;
+    }
+}
+
+time complexity - O(N^2)
+space complexity - O(N)
