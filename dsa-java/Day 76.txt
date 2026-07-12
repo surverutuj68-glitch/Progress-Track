@@ -1,0 +1,22 @@
+LeetCode
+78. Subsets
+
+class Solution {
+    List<List<Integer>> ans = new ArrayList<>();
+    public List<List<Integer>> subsets(int[] nums) {
+        dfs(0,new ArrayList<>(),nums);
+        return ans;
+    }
+    private void dfs(int start, List<Integer> subset, int[] nums){
+        ans.add(new ArrayList<>(subset));
+        for(int i = start; i<nums.length;i++){
+            subset.add(nums[i]);
+            dfs(i+1,subset,nums);
+            subset.remove(subset.size()-1);
+        }
+        
+    }
+}
+
+time complexity - O(N×2^N)
+space complexity - O(N×2^N)
