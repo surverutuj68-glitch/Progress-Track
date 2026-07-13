@@ -1,0 +1,27 @@
+LeetCode
+39. Combination Sum
+
+class Solution {
+    List<List<Integer>> ans = new ArrayList<>();
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        dfs(0, candidates, new ArrayList<>(),0, target);
+        return ans;
+    }
+    private void dfs(int start, int[] candidates, List<Integer> subset, int currentSum, int target){
+        if(currentSum == target){
+            ans.add(new ArrayList<>(subset));
+            return;
+        }
+        if(currentSum>target){
+            return;
+        }
+        for(int i = start; i< candidates.length;i++){
+            subset.add(candidates[i]);
+            dfs(i, candidates, subset, currentSum+candidates[i], target);
+            subset.remove(subset.size()-1);
+        }
+    }
+}
+
+time complexity - O(N^Target/Min(Candidates))
+space complexity - O(Target/Min(Candidates))
