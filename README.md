@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0242-valid-anagram](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0344-reverse-string) |
 ## Array
 |  |
@@ -42,4 +43,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0242-valid-anagram](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0242-valid-anagram) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
