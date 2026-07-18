@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0049-group-anagrams) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0209-minimum-size-subarray-sum) |
+| [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
 | [0643-maximum-average-subarray-i](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0643-maximum-average-subarray-i) |
 ## Binary Search
 |  |
@@ -52,14 +53,33 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0383-ransom-note) |
 ## Sorting
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0383-ransom-note) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
