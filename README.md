@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0011-container-with-most-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0209-minimum-size-subarray-sum) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0242-valid-anagram](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0383-ransom-note) |
