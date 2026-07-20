@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0209-minimum-size-subarray-sum) |
 | [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
 | [0643-maximum-average-subarray-i](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0643-maximum-average-subarray-i) |
+| [0724-find-pivot-index](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0724-find-pivot-index) |
 ## Binary Search
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0209-minimum-size-subarray-sum) |
+| [0724-find-pivot-index](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0724-find-pivot-index) |
 ## Hash Table
 |  |
 | ------- |
