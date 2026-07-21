@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0011-container-with-most-water) |
 | [0049-group-anagrams](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0049-group-anagrams) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0209-minimum-size-subarray-sum) |
 | [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0209-minimum-size-subarray-sum) |
 | [0704-binary-search](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0704-binary-search) |
