@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0011-container-with-most-water) |
 | [0046-permutations](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0053-maximum-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0347-top-k-frequent-elements) |
@@ -111,4 +113,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0046-permutations](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0047-permutations-ii) |
 <!---LeetCode Topics End-->
