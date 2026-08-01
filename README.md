@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0049-group-anagrams) |
+| [0131-palindrome-partitioning](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0344-reverse-string) |
@@ -109,9 +110,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0053-maximum-subarray) |
+| [0131-palindrome-partitioning](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0131-palindrome-partitioning) |
 ## Backtracking
 |  |
 | ------- |
 | [0046-permutations](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0047-permutations-ii) |
+| [0131-palindrome-partitioning](https://github.com/surverutuj68-glitch/Progress-Track/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
