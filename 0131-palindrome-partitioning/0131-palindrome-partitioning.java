@@ -5,11 +5,15 @@ class Solution {
         return ans;
     }
     private boolean isPalindrome(String subString){
-        String rev = "";
-        for(int i = subString.length()-1;i>=0;i--){
-            rev = rev + subString.charAt(i);
+        int left = 0;
+        int right = subString.length() - 1;
+        while(left < right){
+            if(subString.charAt(left) != subString.charAt(right))
+                return false;
+            left++;
+            right--;
         }
-        return subString.equals(rev);
+        return true;
     }
     private void dfs(String s, int start, List<String> path){
         if(start == s.length()){
